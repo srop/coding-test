@@ -1,0 +1,24 @@
+<style type="text/css">
+    .parent {
+        position: relative;
+        /* try changing the width! */
+        width: 200px;
+        height: 100px;
+        border: 2px solid black;
+    }
+    
+    .star {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, -50%);
+        /* Only allow to add content inside this block */
+        /* */
+    }
+</style>
+
+<h3>Quiz: Move a star to middle of the box.</h3>
+<div class="parent">
+    <div class="star">★</div>
+</div>
